@@ -1,8 +1,8 @@
-# DNIEBot (in development)
+# DNIE bot (in development)
 
 A telegram bot for verifying DNI numbers (NIF) and NIE and randomly generate them.
 
-In Spain, the official ID card is called DNI and its ID number is called NIF. For foreigners living in Spain, the number is slightly different and its name is NIE.
+In Spain, the official ID card is called DNI and its ID number is called NIF. For foreigners living in Spain, the number is one digit shorter and its name is NIE.
 
 Made with [telepot](https://github.com/nickoala/telepot)
 
@@ -22,26 +22,24 @@ Generate random NIE:
 
     /randomnie
 
+<br>
+
 #### Inline:
 
-<br>
+Get control digit for a DNI or NIE number
 
-Verify if 12345678Z is a valid DNI number
-
-    @dni_bot 12345678z
-
-Verify if 1234567Y is a valid NIE
-
-    @dni_bot 1234567Y
-
-(In both cases you can use upper or lower case for the letter)
+    @DNIE_bot 12345678
 
 
 <br>
 
-Generate a random DNI number
+List of random DNI numbers
 
-    @dni_bot random
+    @DNIE_bot dni
+
+List of random NIE numbers
+
+    @DNIE_bot nie
 
 ### Bibliography
 
